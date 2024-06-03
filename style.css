@@ -1,0 +1,165 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.container1{
+  width: full;
+  height: 50cm;
+  box-sizing: border-box;
+  flex-shrink: 2;
+  
+}
+.container2{
+  width: full;
+  height: 10cm;
+  background-color: #ddeedf;
+  display: flex;
+  flex-shrink: 2;
+ 
+}
+#con2div1 img{
+  border: 2px solid grey;
+  position: relative;
+  top: 1cm;
+  left: 2cm;
+}
+#welcome{
+  color: #2470a0;
+  font-size:50px;
+  position: relative;
+  left:250px;
+}
+#to{
+  color:#77529e;
+  font-size:50px;
+  position: relative;
+  left:350px;
+  top:-40px;
+}
+#learno{
+  color:#975a5e;
+  font-size:70px;
+  position: relative;
+  left:250px;
+  top:-100px;
+letter-spacing: 5px;}
+.container3{
+  width:full;
+  height: 1.5cm;
+  background-color:#f2f9f1 ;
+  display: flex;
+  flex-shrink: 2;
+  
+}
+#learno1{
+  padding: 10px 0px 0px 30px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-shadow: 5px 3px 5px grey;
+  display: flex;
+}
+a{
+  text-decoration: none;
+  text-align: right;
+ padding-left: 30px;
+  font-size: 20px;
+  position: relative;
+  left: 310px;
+  top:20px;
+  color: black;
+}
+#search{
+  position: relative;
+  left: 330px;
+  top: 15px;
+}
+a:hover{
+  text-decoration: underline;
+}
+.container4{
+  width: full;
+  height: 20cm;
+  background-color:#b6cdbd;
+  display: flex;
+  flex-shrink: 2;
+}
+#con4div1{
+  overflow: auto;
+}
+#con4div2 img{
+  width: 4.2cm;
+  height: 3.8cm;
+  position:relative;
+  left:1cm;
+  box-shadow: 10px 10px 7px grey;
+  border: lightgray;
+
+}
+.container5{
+  width: full;
+  height: 16cm;
+  background-color: #bcdbdf;
+  flex-shrink: 2;
+  
+}
+#con5div1{
+  background-color: #f4eeff;
+  display: flex;
+  height: 1.5cm;
+  font-size: 25px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+#email{
+  position: relative;
+  left: 20px;
+}
+#phn{
+  position: relative;
+  left: 270px;
+}
+#insta{
+  position: relative;
+  left: 550px;
+  top: -2px;
+}
+#insta img{
+  height: 0.8cm;
+  width: 0.8cm;
+  position: relative;
+  top:8px;
+}
+#con5div2{
+  width:15cm;
+  height: 14cm;
+  background-color: whitesmoke;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#contactus{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+}
+#fname{
+  height: 1.5cm;
+  width: 10cm;
+  
+}
+#fmessage{
+  height: 5cm;
+  width: 10cm;
+}
+#fsubmit{
+  height: 1.5cm;
+  width: 10.3cm;
+  background-color: #497285;
+}
+#con5div3{
+  height: 5cm;
+  width: 5cm;
+  position: relative;
+  top:100px;
+  left: 200px;
+}
